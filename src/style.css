@@ -1,5 +1,5 @@
 body {
-    background-color:cyan;
+    background-color:rgb(255, 176, 40);
     font-family: "Plus Jakarta Sans";
 }
 
@@ -10,4 +10,22 @@ body {
     padding: 45px;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
     border-radius: 15px;
+}
+
+.search-form-input {
+    background-color: rgba(255, 221, 0, 0.29);
+    border: none;
+    border-radius: 15px;
+    width: 60%;
+    padding: 15px;
+    font-size: 16px;
+}
+
+.search-form-button {
+    padding: 15px;
+    width: 100px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(255, 176, 40);
+    color:white;
 }
