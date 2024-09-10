@@ -3,7 +3,11 @@ body {
     font-family: "Plus Jakarta Sans";
 }
 
-.app {
+main {
+    padding: 30px;
+}
+
+.weather-app {
     background: white;
     max-width: 650px;
     margin: 60px auto;
@@ -14,6 +18,7 @@ body {
 
 .search-form-input {
     background-color: rgba(255, 221, 0, 0.29);
+    color: #8A1253;
     border: none;
     border-radius: 15px;
     width: 60%;
@@ -26,6 +31,52 @@ body {
     width: 100px;
     border-radius: 15px;
     border: none;
-    background-color: rgb(255, 176, 40);
+    background-color: #8A1253;
     color:white;
+}
+
+.weather-app-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-app-city {
+    margin: 0;
+    font-size: 38px;
+    line-height: 48px;
+}
+
+.weather-app-details {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+
+}
+
+.weather-app-details strong {
+    color: #c51350;;
+}
+
+.weather-app-icon {
+    font-size: 80px;
+
+}
+
+.weather-app-temperature{
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.weather-app-unit {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+a {
+    color: #8A1253;
+    font-weight: bolder;
+}
+
+footer {
+    padding: 40px 0 0 0;
 }
