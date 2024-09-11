@@ -37,7 +37,6 @@ main {
 
 .weather-app-data {
     display: flex;
-    justify-content: space-between;
 }
 
 .weather-app-city {
@@ -54,11 +53,12 @@ main {
 }
 
 .weather-app-details strong {
-    color: #c51350;;
+    color: #c51350;
 }
 
 .weather-app-icon {
     font-size: 80px;
+    margin-left: 130px;
 
 }
 
