@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-    <title>week 7 Vanilla</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<title>week 7 Vanilla</title>
   </head>
   <body>
     <div class="weather-app">
@@ -19,6 +20,7 @@
             class="search-form-input"/>
             <input type="submit" value="Search" class="search-form-button" />
         </form>
+        <hr>
             <main>
                 <div class="weather-app-data">
                     <div>
@@ -29,10 +31,12 @@
                            Humidity: <strong> 66%</strong>, Wind: <strong>3.13km/h</strong>
                         </p>
                     </div class="weather-app-temperature-container">
-                  <div class="weather-app-icon"></div>
-                  <div class="weather-app-temperature">12</div><div class="weather-app-unit">°C</div>
+                  <div class="weather-app-icon">🌦</div>
+                  <div class="weather-app-temperature">12</div>
+                  <div class="weather-app-unit">°C</div>
                 </div>            
             </main>
+            <hr>
         <footer>
         Coded by <a href="https://github.com/Rhitree" target="_blank">Rhian Jenkins</a>, is open-sourced on
         <a href="https://github.com/Rhitree/My-Weather-App" target="_blank">GitHub</a> & hosted on

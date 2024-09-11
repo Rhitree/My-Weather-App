@@ -17,6 +17,15 @@ main {
     padding: 30px;
 }
 
+form {
+    text-align: center;
+    padding: 0 0 40px 0;
+}
+
+hr {
+    border-color:#c51350;
+    border-style: dotted;
+}
 .weather-app {
     background: white;
     max-width: 650px;
@@ -50,6 +59,8 @@ main {
 
 .weather-app-data {
     display: flex;
+    justify-content: space-evenly;
+
 }
 
 .weather-app-city {
@@ -72,6 +83,7 @@ main {
 .weather-app-icon {
     font-size: 80px;
     margin-left: 130px;
+    color: #c51350;
 
 }
 
@@ -83,6 +95,7 @@ main {
 .weather-app-unit {
     font-size: 40px;
     font-weight: bold;
+    color: #c51350;
 }
 
 a {
@@ -91,5 +104,5 @@ a {
 }
 
 footer {
-    padding: 40px 0 0 0;
+    padding: 20px 0 0 0;
 }
