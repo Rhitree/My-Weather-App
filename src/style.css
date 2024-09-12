@@ -81,6 +81,11 @@ hr {
     color: #c51350;
 }
 
+.weather-app-temperature-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .weather-app-icon {
     font-size: 80px;
     color: #c51350;
